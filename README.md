@@ -31,19 +31,21 @@
 7. 处理订单信息队列；  
 8. 将已处理的订单进行处理（写入数据库），以便日后做账；
 
+
+
 团队仓库目录结构
-TestOrgName
-xxxsystem
+WeAreElder
+OrderApp
 configs
 dbscripts
 docs
 src
 下面一一说一下这些目录的作用：
 
-TestOrgName
+WeAreElder
 团队/组织名，可以自定义，最好用英文。
 
-xxxsystem
+OrderApp
 团队要做的项目名称，可以自定义，最好用英文。
 
 configs
