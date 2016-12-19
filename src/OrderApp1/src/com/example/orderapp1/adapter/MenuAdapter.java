@@ -74,5 +74,6 @@ public class MenuAdapter extends BaseAdapter{
 	}
 	static class ViewHolder{
 		private TextView tv_name;
+		public TextView tv_title;
 	}
 }

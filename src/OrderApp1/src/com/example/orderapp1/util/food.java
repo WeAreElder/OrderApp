@@ -7,15 +7,17 @@ public class food implements Serializable{
 	private String foodname;
 	private int num;
 	private int price;
-	public food() {
-		super();
+	private String title;
+	
+	
+	public food(int id, String foodname, String title,int num,int price) {
 		// TODO Auto-generated constructor stub
-	}
-	public food(String foodname, int price) {
 		super();
+		this.id = id;
 		this.foodname = foodname;
+		this.title = title;
+		this.num = num;
 		this.price = price;
-
 	}
 	public int getId() {
 		return id;
@@ -38,7 +40,13 @@ public class food implements Serializable{
 	public void setprice(int price) {
 		this.price = price;
 	}
+	public String getTitle() {
+		return title;
+	}
 
+	public void setTitle(String title) {
+		this.title = title;
+	}
 	@Override
 	public String toString() {
 		return "food [id=" + id + ", foodname=" + foodname + ", num=" + num + ", price="

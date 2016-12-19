@@ -11,20 +11,76 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
+        public static final int abc_search_url_text_normal=0x7f04000d;
+        public static final int abc_search_url_text_pressed=0x7f04000f;
+        public static final int abc_search_url_text_selected=0x7f04000e;
         public static final int action_bar_back=0x7f040000;
         public static final int action_bar_back_select=0x7f040001;
         public static final int action_set_bg=0x7f040005;
-        public static final int ll_coachback=0x7f040007;
+        public static final int backColor=0x7f040020;
+        public static final int black=0x7f040014;
+        public static final int blue=0x7f040018;
+        public static final int blue_dark=0x7f040026;
+        public static final int blue_light=0x7f040027;
+        public static final int blue_renren=0x7f040019;
+        public static final int blue_renren_pressed=0x7f04001a;
+        public static final int color_3=0x7f040031;
+        public static final int color_4=0x7f040032;
+        public static final int color_5=0x7f04003d;
+        public static final int color_6=0x7f040033;
+        public static final int color_7=0x7f040034;
+        public static final int color_8=0x7f040035;
+        public static final int color_9=0x7f040036;
+        public static final int color_9a=0x7f040037;
+        public static final int color_b=0x7f040038;
+        public static final int color_d2=0x7f040039;
+        public static final int color_e=0x7f04003f;
+        public static final int color_e9=0x7f040041;
+        public static final int color_ec=0x7f040040;
+        public static final int color_ef=0x7f04003e;
+        public static final int color_f5=0x7f04003c;
+        public static final int color_f6=0x7f04003b;
+        public static final int color_f7=0x7f04003a;
+        public static final int default_circle_indicator_fill_color=0x7f040042;
+        public static final int default_circle_indicator_page_color=0x7f040043;
+        public static final int default_circle_indicator_stroke_color=0x7f040044;
+        public static final int gray_bg=0x7f040010;
+        public static final int gray_bg_2=0x7f040011;
+        public static final int gray_txt=0x7f040012;
+        public static final int green=0x7f04001b;
+        public static final int green_dark=0x7f040028;
+        public static final int green_light=0x7f040029;
+        public static final int green_weixin=0x7f04001c;
+        public static final int green_weixin_co_order=0x7f04001e;
+        public static final int green_weixin_pressed=0x7f04001d;
+        public static final int grey=0x7f04002c;
+        public static final int grey_dark=0x7f04002e;
+        public static final int grey_dark_pressed=0x7f04002f;
+        public static final int grey_pressed=0x7f04002d;
+        public static final int grey_white=0x7f04002a;
+        public static final int grey_white_pressed=0x7f04002b;
+        public static final int ll_coachback=0x7f040006;
+        public static final int menu_section_header=0x7f040045;
+        public static final int orange_ff=0x7f040024;
+        public static final int red=0x7f04001f;
+        public static final int red_dark=0x7f040021;
+        public static final int red_for_envelopes=0x7f040030;
+        public static final int red_light=0x7f040025;
+        public static final int red_weibo=0x7f040022;
+        public static final int red_weibo_pressed=0x7f040023;
         public static final int tab_indicator=0x7f040004;
         public static final int tab_title_normal=0x7f040002;
         public static final int tab_title_select=0x7f040003;
-        public static final int text=0x7f040008;
-        public static final int text_bule=0x7f04000b;
-        public static final int text_deep=0x7f04000a;
-        public static final int text_green=0x7f040009;
-        public static final int text_light=0x7f04000c;
-        public static final int text_red=0x7f04000d;
-        public static final int white=0x7f040006;
+        public static final int text=0x7f040007;
+        public static final int text_bule=0x7f04000a;
+        public static final int text_deep=0x7f040009;
+        public static final int text_field_pressed=0x7f040013;
+        public static final int text_green=0x7f040008;
+        public static final int text_light=0x7f04000b;
+        public static final int text_red=0x7f04000c;
+        public static final int white=0x7f040015;
+        public static final int white_disable=0x7f040017;
+        public static final int white_transparent=0x7f040016;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -38,38 +94,59 @@ public final class R {
     }
     public static final class drawable {
         public static final int background=0x7f020000;
-        public static final int button=0x7f020001;
-        public static final int home1=0x7f020002;
-        public static final int home2=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int mine1=0x7f020005;
-        public static final int mine2=0x7f020006;
-        public static final int order1=0x7f020007;
-        public static final int order2=0x7f020008;
+        public static final int bk_user=0x7f020001;
+        public static final int button=0x7f020002;
+        public static final int home1=0x7f020003;
+        public static final int home2=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int mine1=0x7f020006;
+        public static final int mine2=0x7f020007;
+        public static final int minus=0x7f020008;
+        public static final int order1=0x7f020009;
+        public static final int order2=0x7f02000a;
+        public static final int plus=0x7f02000b;
+        public static final int user=0x7f02000c;
     }
     public static final class id {
-        public static final int action_settings=0x7f090015;
+        public static final int Address=0x7f090020;
+        public static final int action_settings=0x7f090026;
+        public static final int address=0x7f090024;
+        public static final int btn_change=0x7f090025;
+        public static final int btn_fininsh=0x7f090021;
+        public static final int btn_return=0x7f090022;
         public static final int button1=0x7f090004;
         public static final int button2=0x7f090005;
         public static final int button3=0x7f090006;
-        public static final int editText3=0x7f090010;
+        public static final int editText3=0x7f090014;
         public static final int imageButton1=0x7f090007;
         public static final int imageButton2=0x7f090009;
         public static final int imageButton3=0x7f090008;
+        public static final int intor=0x7f09001b;
+        public static final int item_btn_add=0x7f090012;
+        public static final int item_btn_sub=0x7f090010;
         public static final int item_home_name=0x7f09000e;
         public static final int item_home_title=0x7f09000d;
-        public static final int item_name=0x7f09000f;
+        public static final int item_name=0x7f090013;
+        public static final int item_product_num=0x7f090011;
+        public static final int item_product_price=0x7f09000f;
         public static final int lv_home=0x7f09000b;
         public static final int lv_menu=0x7f09000a;
-        public static final int passwoed2=0x7f090014;
+        public static final int mail=0x7f09001f;
+        public static final int name=0x7f09001c;
+        public static final int passwoed2=0x7f090018;
         public static final int password=0x7f090003;
-        public static final int queren=0x7f090013;
+        public static final int photo=0x7f09001a;
+        public static final int queren=0x7f090017;
+        public static final int radioButton1=0x7f09001d;
+        public static final int radioButton2=0x7f09001e;
+        public static final int sex=0x7f090023;
         public static final int textView1=0x7f090000;
         public static final int textView2=0x7f090002;
-        public static final int textView3=0x7f090011;
+        public static final int textView3=0x7f090015;
         public static final int tv_titile=0x7f09000c;
+        public static final int userface=0x7f090019;
         public static final int username=0x7f090001;
-        public static final int username1=0x7f090012;
+        public static final int username1=0x7f090016;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -80,6 +157,7 @@ public final class R {
         public static final int order=0x7f030005;
         public static final int signup=0x7f030006;
         public static final int user=0x7f030007;
+        public static final int user_show=0x7f030008;
     }
     public static final class menu {
         public static final int main=0x7f080000;

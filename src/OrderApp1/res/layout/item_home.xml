@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-
-    <LinearLayout
+<RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -19,13 +18,13 @@
             android:gravity="center_vertical"
             android:text="@string/hello_world" />
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="10dp"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
-        android:paddingTop="10dp"
+        android:paddingTop="50dp"
             android:orientation="horizontal" >
 
             <ImageView
@@ -35,75 +34,82 @@
                 android:scaleType="fitXY"
                 android:src="@drawable/ic_launcher" />
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:orientation="vertical" >
+
                 <RelativeLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" >
 
-                <TextView
-                    android:id="@+id/item_home_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="黄焖鸡微辣"
-                    android:textColor="@color/text_deep"
-                    android:textSize="14sp" />
-
-                <ImageButton
+                     <TextView
+                        android:id="@+id/item_home_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@+id/item_product_price"
+                        android:text="黄焖鸡微辣"
+                        android:textColor="@color/text_deep"
+                        android:textSize="14sp" />
+                    <ImageButton
                         android:id="@+id/item_btn_sub"
-                        android:layout_width="15dp"
-                        android:layout_height="15dp"
-                       android:layout_marginLeft="100dp"
+                        android:layout_width="20dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="80dp"
                         android:layout_toRightOf="@id/item_home_name"
                         android:background="#0000"
                         android:src="@drawable/minus" />
-
-                    
 
                     <TextView
                         android:id="@+id/item_product_num"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                       
-                       
                         android:layout_toRightOf="@id/item_btn_sub"
                         android:text="1"
                         android:textColor="#000"
                         android:textSize="25sp" />
-                   <ImageButton
+
+                    <ImageButton
                         android:id="@+id/item_btn_add"
-                        android:layout_width="15dp"
-                        android:layout_height="15dp"
-                        
-                        android:layout_toRightOf="@id/item_product_num"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/item_product_num"
                         android:background="#0000"
-                        android:src="@drawable/Plus" />
-                    
+                        android:src="@drawable/plus" />
+
+                    <TextView
+                        android:id="@+id/item_product_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="85dp"
+                        android:text="¥  15"
+                        android:textColor="@color/text_red"
+                        android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="40dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/item_product_num"
+                        android:layout_marginTop="22dp"
                         android:maxLines="2"
                         android:text="微辣感觉刚刚好，颜值很高，味道也很好，为你献上美味的食品"
                         android:textColor="@color/text_light"
                         android:textSize="12sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
-                        android:text="¥  15"
-                        android:textColor="@color/text_red"
-                        android:textSize="16sp" />
+                   
+
                 </RelativeLayout>
 
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    
 
-</LinearLayout>
+</RelativeLayout>
